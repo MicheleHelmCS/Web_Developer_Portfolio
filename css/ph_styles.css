@@ -68,7 +68,7 @@
 
 /* Structural Styles */
 html {
-	background-color: hsl(91, 8%, 56%);
+	background-color: black;
 }
 
 body {
@@ -146,7 +146,7 @@ section.playbill#play2 {
 }
 
 section.playbill#play2 h1{
-  font-family: Grunge, 'Times New Roman', Times, serif
+    font-family: Impact, Charcoal, sans-serif;
 }
 
 section.playbill#play3 {
@@ -154,7 +154,7 @@ section.playbill#play3 {
 }
 
 section.playbill#play3 h1{
-  font-family: Impact, Charcoal, sans-serif;
+  font-family: Grunge, 'Times New Roman', Times, serif;
 }
 
 section.playbill#play4 {
