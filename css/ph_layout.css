@@ -1,65 +1,106 @@
 @charset "utf-8";
 
+@font-face {
+	font-family: Champagne;
+	src: url('cac_champagne.woff') format('woff'),
+		url('cac_champagne.ttf') format('truetype');
+}
+
 /* 
 
-   Layout Style Sheet
+   Style Sheet
    Author: Michele Helm
    Date:   10-25-2022
    
-   Filename: ph_layout.css
+   Filename: ph_styles.css
 
 */
 
+/**************************/
+/* Structural Styles */
+html {
+	background-color: black;
+}
+
 body {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1020px;
-	min-width: 640px;
+  background-color: black;
 }
 
-body > header {
-	margin: 0;
-	padding: 0px;
-	width: 100%;
+body > p {
+  font-size: 1.1em;
+  text-align: center;
 }
 
-body > header > img {
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
+header {
+  background-color: black;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, san-serif;
+  font-size: 3.5em;
+  text-align: center;
+  color: whitesmoke;
+}
+
+p {
+  margin: 0px;
+  padding: 5px, 25px, 25px, 25px;
+}
+
+address {
+  font-style: normal;
+  font-size: 2em;
+  text-align: center;
+  padding: 10px;
+  color: whitesmoke;
 }
 /**************************/
-/* Navigation List Styles */
-
-nav {
-	display: table;
-	width: 100%;
+/* Navigation Styles */
+nav > a {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  padding: 10px;
 }
 
-nav > ul {
-	display: table-row;
-}
-
-nav > ul > li {
-	display: table-cell;
-	text-align: center;
-}
-
-nav > ul > li > a {
-	display: block;
+nav > ul > li> a:visited, nav > ul > li > a:link {
+  color: white;
+  text-decoration: none;
+  background-color: hsla(0, 0%, 42%, 0.4);
 }
 /**************************/
 /* Section Styles */
+section.playbill a {
+  font-size: 2em;
+  font-weight: normal;
+}
 
-section {
-	clear: right;
+section.playbill p {
+  font-size: 2em;
+  font-weight: normal;
+  margin: 0px;
+  padding: 20px,0px,10px,20px;
+}
+
+section.playbill h1 {
+  font-size: 3em;
+  font-weight: normal;
+  margin: 0px;
+  padding: 20px,0px,10px,20px;
+}
+
+section.playbill#play2 {
+  background-color: hsl(25, 88%, 73%);
+}
+
+section.playbill#play2 h1{
+    font-family: Impact, Charcoal, sans-serif;
 }
 /**************************/
 /* Description List Styles */
-
-dl {
-	float: right;
-	width: 40%;
-	margin: 0 0 0 4%;
+dt {
+  font-size: 1.32em;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.4);
 }
-/**************************/
+
+dd {
+  font-size: 1.3em;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
