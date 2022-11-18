@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-/*
-   New Perspectives on HTML5 and CSS3, 8th Edition
-   Tutorial 2
-   Case Problem 1
+/* 
+
+   Layout Style Sheet
+   Author: Michele Helm
+   Date:   10-25-2022
    
-   PHCT Layout Styles
    Filename: ph_layout.css
 
 */
@@ -28,8 +28,9 @@ body > header > img {
 	padding: 0px;
 	width: 100%;
 }
-
+/**************************/
 /* Navigation List Styles */
+
 nav {
 	display: table;
 	width: 100%;
@@ -47,13 +48,13 @@ nav > ul > li {
 nav > ul > li > a {
 	display: block;
 }
-
+/**************************/
 /* Section Styles */
 
 section {
 	clear: right;
 }
-
+/**************************/
 /* Description List Styles */
 
 dl {
@@ -61,3 +62,4 @@ dl {
 	width: 40%;
 	margin: 0 0 0 4%;
 }
+/**************************/
