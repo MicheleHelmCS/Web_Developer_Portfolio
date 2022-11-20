@@ -6,59 +6,9 @@
 		url('cac_champagne.ttf') format('truetype');
 }
 
-@font-face {
-	font-family: Grunge;
-	src: url('1942.woff') format('woff'),
-		url('1942.ttf') format('truetype');
-}
+/* 
 
-@font-face {
-	font-family: Dobkin;
-	src: url('DobkinPlain.woff') format('woff'),
-		url('DobkinPlain.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Caveat;
-	src: url('Caveat-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Dancing Script;
-	src: url('DancingScript-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Kolker Brush;
-	src: url('KolkerBrush-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Lobster;
-	src: url('Lobster-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Pacifico;
-	src: url('Pacifico-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Roboto;
-	src: url('Roboto-Black.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Rubik Bubbles;
-	src: url('RubikBubbles-Regular.ttf') format('truetype');
-}
-
-/*
-   New Perspectives on HTML5 and CSS3, 8th Edition
-   Tutorial 2
-   Case Problem 1
-   
-   PHCT Typographic Style Sheet
+   Style Sheet
    Author: Michele Helm
    Date:   10-25-2022
    
@@ -66,6 +16,7 @@
 
 */
 
+/**************************/
 /* Structural Styles */
 html {
 	background-color: black;
@@ -100,7 +51,7 @@ address {
   padding: 10px;
   color: whitesmoke;
 }
-
+/**************************/
 /* Navigation Styles */
 nav > a {
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -112,7 +63,7 @@ nav > ul > li> a:visited, nav > ul > li > a:link {
   text-decoration: none;
   background-color: hsla(0, 0%, 42%, 0.4);
 }
-
+/**************************/
 /* Section Styles */
 section.playbill a {
   font-size: 2em;
@@ -133,14 +84,6 @@ section.playbill h1 {
   padding: 20px,0px,10px,20px;
 }
 
-section.playbill#play1 {
-  background-color: hsl(240, 100%, 88%);
-}
-
-section.playbill#play1 h1{
-  font-family: Champagne, cursive;
-}
-
 section.playbill#play2 {
   background-color: hsl(25, 88%, 73%);
 }
@@ -148,63 +91,7 @@ section.playbill#play2 {
 section.playbill#play2 h1{
     font-family: Impact, Charcoal, sans-serif;
 }
-
-section.playbill#play3 {
-  background-color:  hsl(0, 100%, 75%);
-}
-
-section.playbill#play3 h1{
-  font-family: Grunge, 'Times New Roman', Times, serif;
-}
-
-section.playbill#play4 {
-  background-color: hsl(296, 86%, 86%);
-}
-
-section.playbill#play4 h1{
-  font-family: Dobkin, cursive;
-}
-
-section.playbill#play5 {
-  background-color: hsl(90,75%,50%);
-}
-
-section.playbill#play5 h1{
-  font-family: Caveat;
-}
-
-section.playbill#play6 {
-  background-color: hsl(325,100%,50%);
-}
-
-section.playbill#play6 h1{
-  font-family: Roboto;
-}
-
-section.playbill#play7 {
-  background-color: hsl(180,75%,50%);
-}
-
-section.playbill#play7 h1{
-  font-family: Dancing Script;
-}
-
-section.playbill#play8 {
-  background-color: hsl(325,25%,50%);
-}
-
-section.playbill#play8 h1{
-  font-family: Rubik Bubbles;
-}
-
-section.playbill#play9 {
-  background-color: hsl(215,100%,50%);
-}
-
-section.playbill#play9 h1{
-  font-family: Lobster;
-}
-
+/**************************/
 /* Description List Styles */
 dt {
   font-size: 1.32em;
